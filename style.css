@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.nav-buttons button {
+  margin: 0 10px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.timeline-wrapper {
+  overflow-x: auto;
+}
+
+.timeline {
+  display: flex;
+  gap: 30px;
+  min-width: 900px;
+}
+
+.year-block {
+  min-width: 250px;
+  padding: 10px;
+  background: #eef2f3;
+  border-left: 4px solid #333;
+  border-radius: 5px;
+}
+
+.year {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.event {
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.event.politica {
+  color: #1e90ff;
+}
+.event.economia {
+  color: #2e8b57;
+}
+.event.territorio {
+  color: #ffa500;
+}
+.event.sociedad {
+  color: #dc143c;
+}
+
+.leyenda {
+  margin-top: 20px;
+  text-align: center;
+}
+.leyenda span {
+  margin: 0 10px;
+  font-weight: bold;
+}
